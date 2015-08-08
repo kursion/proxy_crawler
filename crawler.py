@@ -46,7 +46,7 @@ def decodeRow(codes, row):
 
 
 # Get proxies from nntime.com
-def getProxies(page):
+def getProxies(page=1):
     htmlPage = getHTML(page)
 
     parseTable = r"<td>(.*?)</td>"
