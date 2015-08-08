@@ -2,8 +2,7 @@ __all__ = ["crawler"]
 
 if __name__ == '__main__':
     import crawler
-    import py_console.colors as consoleColors
-    console = consoleColors
+    import py_console.colors as console
 
     proxies = []
     for page in range(1, 5):
